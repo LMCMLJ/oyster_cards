@@ -22,6 +22,10 @@ describe Journey do
               entry_zone: 1,
               exit_station: 'Paddington',
               exit_zone: 2}
+    @hash4 = {entry_station: 'Waterloo',
+              entry_zone: 1,
+              exit_station: 'Paddington',
+              exit_zone: 4}
   end
 
   describe '#initialize' do
@@ -74,16 +78,9 @@ describe Journey do
       expect(journey.fare).to eq(6)
     end
 
-    it 'Charges 1 for staying withing the same zone' do
-    
+    it 'Charges 4 for going from 1 to 4' do
+      journey.current_trip = @hash4
+      expect(journey.fare).to eq(4)
     end
-
-    it 'Charges 5 for going from zone 1 to 5' do
-    end
-
-    it 'Charges 4 for going from 4 to 1' do
-    end
-
   end
-
 end
