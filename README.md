@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/LMCMLJ/oyster_cards.svg?branch=day-two)](https://travis-ci.org/LMCMLJ/oyster_cards)
-[![Coverage Status](https://coveralls.io/repos/github/LMCMLJ/oyster_cards/badge.svg?branch=day-two)](https://coveralls.io/github/LMCMLJ/oyster_cards?branch=day-two)
+[![Coverage Status](https://coveralls.io/repos/github/LMCMLJ/oyster_cards/badge.svg?branch=master)](https://coveralls.io/github/LMCMLJ/oyster_cards?branch=master)
 Oyster Card Management System
 ===================
 
