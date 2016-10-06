@@ -6,8 +6,8 @@ class JourneyLog
     @log = []
   end
 
-  def record_trip(hash)
-    @log << hash
+  def record_trip(journey)
+    @log << journey
   end
 
   def journeys
