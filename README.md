@@ -14,3 +14,11 @@ for easy and secure top ups and money extraction.
 ###How to run:
 First, run `gem install bundle` `bundle install` in terminal to ensure gem compatability.
 Second, require the files in './lib', and then instance as necessary.
+
+###TODO:
+
+Update README.
+
+Refactor oystercard.rb
+
+
