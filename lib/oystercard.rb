@@ -6,7 +6,7 @@ class Oystercard
 	MAXIMUM_LIMIT = 90
 	MINIMUM_FARE = 1
 
-	attr_reader :balance, :cardholder_name
+	attr_reader :balance, :cardholder_name, :logger
 	attr_accessor :in_journey
 
 	def initialize(balance = 0, cardholder = 'Example Mc Namington')
